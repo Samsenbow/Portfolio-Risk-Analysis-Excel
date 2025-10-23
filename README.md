@@ -22,3 +22,11 @@ This project is inspired by the **Risk Management Specialization course on Cours
    - **Expected Shortfall (ES)**  
    - Assess changes in VaR and ES under Normal vs t-distribution assumptions.  
 9. Construct a **risk matrix** summarizing portfolio risk.
+
+
+## Tools
+- Microsoft Excel
+
+
+
+The project is still in progress. A partially completed Excel file has been uploaded, and detailed analysis and explanations will be added upon project completion.
