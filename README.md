@@ -11,7 +11,7 @@ This project is inspired by the **Risk Management Specialization course on Cours
 ## Method
 1. Extract data from Google Sheets using GOOGLEFINANCE function.  
 2. Clean, convert, and prepare data for analysis.  
-3. Construct a hypothetical portfolio using the three indexes and exchange rates.  
+3. Construct a hypothetical portfolio using the three indexes.  
 4. Set up bins covering the full range of losses.  
 5. Calculate relative frequencies for each bin.  
 6. Create a histogram in Excel to visualize the loss distribution.  
