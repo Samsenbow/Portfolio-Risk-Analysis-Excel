@@ -104,3 +104,5 @@ Value at Risk (VaR) was also estimated using the t-distribution, which accounts 
   <b>Figure 6:</b> Comaprison between VaR and t VaR.
 </p>
 
+## Extensions and Alternative Approaches
+Beyond Normal and t-distributions, other approaches such as weighted historical VaR, and extreme value methods can be used to capture time-varying volatility and fat tails. Analyses can also be repeated across different time scales (daily, weekly, monthly) to observe how risk measures change with aggregation. Comparing these methods allows for a more robust assessment of portfolio risk and highlights the impact of extreme events and distributional assumptions.
