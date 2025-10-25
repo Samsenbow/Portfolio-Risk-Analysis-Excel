@@ -9,8 +9,9 @@ This project is inspired by the **Risk Management Specialization course on Cours
 
 
 ## Method
-1. Extract data from Google Sheets using GOOGLEFINANCE function.  
-2. Clean, convert, and prepare data for analysis.  
+1. Extract data from Google Sheets using the GOOGLEFINANCE function.
+2. Clean, convert, and prepare data using Excel functions (e.g., VLOOKUP, date alignment, and filtering).
+To ensure comparability, only trading days where all three markets (S&P 500, FTSE 100, DAX) were open were retained. Days with missing data due to holidays or closures in any index were removed.
 3. Construct a hypothetical portfolio using the three indexes.  
 4. Set up bins covering the full range of losses.  
 5. Calculate relative frequencies for each bin.  
