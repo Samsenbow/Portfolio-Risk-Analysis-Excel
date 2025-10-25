@@ -29,5 +29,20 @@ To ensure comparability, only trading days where all three markets (S&P 500, FTS
 - Microsoft Excel
 
 
+## Results and Analysis
+The historical trends of the three indexes (S&P 500, FTSE 100, and DAX) were first visualized to observe their movement over the two-year period. All three indexes showed an overall upward trend, reflecting general market growth. A noticeable downturn occurred in April 2025 across all three markets, followed by a gradual recovery.
 
-The project is still in progress. A partially completed Excel file has been uploaded, and detailed analysis and explanations will be added upon project completion.
+A hypothetical portfolio was then constructed with an initial value of USD 10,000, consisting of 40% DAX, 30% S&P 500, and 30% FTSE 100. Portfolio values were calculated for 486 trading days, and daily portfolio losses were computed and visualized. The resulting loss distribution appeared approximately symmetric, resembling a normal distribution in shape.
+
+However, the summary statistics indicated heavier tails than a perfect normal distribution:
+| Statistic           | Value   |
+| ------------------- | ------- |
+| Number of scenarios | 486     |
+| Minimum loss        | -325.97 |
+| Maximum loss        | 599.74  |
+| Mean                | -10.21  |
+| Standard deviation  | 80.80   |
+| Skewness            | 1.00    |
+| Kurtosis            | 7.51    |
+
+The positive skewness indicates occasional large gains, while the high kurtosis (greater than 3 for a normal distribution) suggests the presence of extreme loss events. This implies that the portfolio exhibits fat tails, meaning that a normal distribution may underestimate risk, especially in the tails of the loss distribution.
