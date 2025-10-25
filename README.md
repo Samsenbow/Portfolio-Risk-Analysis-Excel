@@ -70,3 +70,15 @@ The Normal distribution did not fully capture the shape of the empirical loss di
 
 ### t-Distribution Fit
 The t-distribution provided a better fit for the portfolio loss distribution compared to the Normal distribution. In the central region (–50 to +50), actual losses were slightly higher than predicted, while in the tails, the t-distribution captured most of the extreme losses that the Normal model missed. However, one very extreme loss near +600 was still not fully addressed, illustrating that even fat-tailed distributions may underestimate truly rare, high-impact events.
+
+<p align="center">
+  <img src="Loss%20vs%20Normal%20Loss.png" alt="Loss Histogram" width="400">
+  <img src="Loss%20Vs%20t%20Loss.png" alt="Loss Vs t Loss" width="400">
+</p>
+<p align="center">
+  <b>Figure 2:</b> Portfolio loss histogram with Normal distribution overlay. &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Figure 3:</b> Portfolio loss histogram with t-distribution overlay.
+</p>
+
+### Portfolio VaR and ES
+Value at Risk (VaR) and Expected Shortfall (ES) were calculated for confidence levels ranging from 97.5% to 99.5% using the PERCENTILE.EXC function in Excel. As expected, higher confidence levels correspond to higher VaR and ES, because we are examining more extreme losses further in the tail of the distribution. ES is consistently higher than VaR, as it represents the average of losses beyond the VaR threshold, capturing tail risk more effectively. This demonstrates how extreme losses increase rapidly in the tails of the portfolio loss distribution.
