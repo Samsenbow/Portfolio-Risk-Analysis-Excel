@@ -92,8 +92,8 @@ VaR and ES were calculated under both the empirical loss distribution and the No
   <img src="ESvsNES.png" alt="Loss Vs t Loss" width="400">
 </p>
 <p align="center">
-  <b>Figure 4:</b> Comparison between VaR and Normal VaR. &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Figure 5:</b> Comparison between ES and Normal ES.
+  <b>Figure 6:</b> Comparison between VaR and Normal VaR. &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Figure 7:</b> Comparison between ES and Normal ES.
 </p>
 
 ### Comparison of t-Distribution and Emperical VaR
@@ -101,7 +101,7 @@ Value at Risk (VaR) was also estimated using the t-distribution, which accounts 
 <p align="center">
   <img src="var&tvar.png" alt="Loss Histogram" width="400">
   <br>
-  <b>Figure 6:</b> Comaprison between VaR and t VaR.
+  <b>Figure 8:</b> Comaprison between VaR and t VaR.
 </p>
 
 ## Extensions and Alternative Approaches
