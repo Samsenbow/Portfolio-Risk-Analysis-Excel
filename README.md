@@ -86,7 +86,7 @@ Value at Risk (VaR) and Expected Shortfall (ES) were calculated for confidence l
 </p>
 
 ### Comparison of Normal and Empirical VaR
-VaR and ES were calculated under both the empirical distribution of portfolio losses and the Normal distribution assumption. Across all confidence levels, the Normal VaR and Normal ES were consistently lower than the empirical values, with the gap widening at higher confidence levels. For example, at 99.5% confidence, empirical VaR was 309.26 USD, while Normal VaR was 197.72 USD. This indicates that the Normal assumption underestimates the risk of extreme losses, especially in the tails, highlighting the importance of using fat-tailed models for accurate portfolio risk assessment.
+VaR and ES were calculated under both the empirical loss distribution and the Normal distribution assumption. For confidence levels below 98%, empirical VaR is slightly smaller than Normal VaR, whereas for confidence levels above 98%, empirical VaR exceeds the Normal VaR, reflecting the fat tails of the portfolio loss distribution. Empirical ES is consistently higher than Normal ES across all confidence levels, highlighting that the Normal assumption underestimates average losses in the tail, and emphasizing the importance of fat-tailed models for accurate risk assessment.
 <p align="center">
   <img src="var&Nvar.png" alt="Loss Histogram" width="400">
   <img src="ESvsNES.png" alt="Loss Vs t Loss" width="400">
