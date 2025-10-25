@@ -82,3 +82,4 @@ The t-distribution provided a better fit for the portfolio loss distribution com
 
 ### Portfolio VaR and ES
 Value at Risk (VaR) and Expected Shortfall (ES) were calculated for confidence levels ranging from 97.5% to 99.5% using the PERCENTILE.EXC function in Excel. As expected, higher confidence levels correspond to higher VaR and ES, because we are examining more extreme losses further in the tail of the distribution. ES is consistently higher than VaR, as it represents the average of losses beyond the VaR threshold, capturing tail risk more effectively. This demonstrates how extreme losses increase rapidly in the tails of the portfolio loss distribution.
+
