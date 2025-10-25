@@ -71,6 +71,11 @@ The Normal distribution did not fully capture the shape of the empirical loss di
 ### t-Distribution Fit
 The t-distribution provided a better fit for the portfolio loss distribution compared to the Normal distribution. In the central region (–50 to +50), actual losses were slightly higher than predicted, while in the tails, the t-distribution captured most of the extreme losses that the Normal model missed. However, one very extreme loss near +600 was still not fully addressed, illustrating that even fat-tailed distributions may underestimate truly rare, high-impact events.
 
+### Portfolio VaR and ES
+Value at Risk (VaR) and Expected Shortfall (ES) were calculated for confidence levels ranging from 90.0% to 99.5% using the PERCENTILE.EXC function in Excel. For general analysis and discussion, a 95% confidence level was used as a reference. As expected, higher confidence levels correspond to higher VaR and ES, because we are examining more extreme losses further in the tail of the distribution. ES is consistently higher than VaR, as it represents the average of losses beyond the VaR threshold, capturing tail risk more effectively. This demonstrates how extreme losses increase rapidly in the tails of the portfolio loss distribution.
+
+
+
 <p align="center">
   <img src="var&CI.png" alt="Loss Histogram" width="400">
   <img src="var&ES.png" alt="Loss Vs t Loss" width="400">
@@ -80,6 +85,13 @@ The t-distribution provided a better fit for the portfolio loss distribution com
   <b>Figure 5:</b> Change of VaR and ES.
 </p>
 
-### Portfolio VaR and ES
-Value at Risk (VaR) and Expected Shortfall (ES) were calculated for confidence levels ranging from 97.5% to 99.5% using the PERCENTILE.EXC function in Excel. As expected, higher confidence levels correspond to higher VaR and ES, because we are examining more extreme losses further in the tail of the distribution. ES is consistently higher than VaR, as it represents the average of losses beyond the VaR threshold, capturing tail risk more effectively. This demonstrates how extreme losses increase rapidly in the tails of the portfolio loss distribution.
-
+### Comparison of Normal and Empirical VaR
+VaR and ES were calculated under both the empirical distribution of portfolio losses and the Normal distribution assumption. Across all confidence levels, the Normal VaR and Normal ES were consistently lower than the empirical values, with the gap widening at higher confidence levels. For example, at 99.5% confidence, empirical VaR was 309.26 USD, while Normal VaR was 197.72 USD. This indicates that the Normal assumption underestimates the risk of extreme losses, especially in the tails, highlighting the importance of using fat-tailed models for accurate portfolio risk assessment.
+<p align="center">
+  <img src="var&Nvar.png" alt="Loss Histogram" width="400">
+  <img src="ES&NES.png" alt="Loss Vs t Loss" width="400">
+</p>
+<p align="center">
+  <b>Figure 4:</b> Comparison between VaR and Normal VaR. &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Figure 5:</b> Comparison between ES and Normal ES.
+</p>
