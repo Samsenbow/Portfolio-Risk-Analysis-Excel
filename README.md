@@ -48,5 +48,10 @@ However, the summary statistics indicated heavier tails than a perfect normal di
 The positive skewness indicates occasional large gains, while the high kurtosis (greater than 3 for a normal distribution) suggests the presence of extreme loss events. This implies that the portfolio exhibits fat tails, meaning that a normal distribution may underestimate risk, especially in the tails of the loss distribution.
 
 <img src="Loss%20Histogram.png" alt="Loss Histogram" width="400">
+Figure 1: Histogram of portfolio daily losses.
+
+To assess how well different theoretical distributions describe the portfolio’s losses, a Normal distribution and a t-distribution were fitted. The Normal distribution was calculated using the standard normal density function, while the t-distribution parameters were estimated using the sample kurtosis. Both fitted distributions were then compared against the empirical histogram.
+
+<img src="Loss%20Vs Normal Loss.png" alt="Loss Histogram" width="400">
 
 
