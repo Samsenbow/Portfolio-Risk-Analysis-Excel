@@ -53,10 +53,12 @@ Figure 1: Histogram of portfolio daily losses.
 
 To assess how well different theoretical distributions describe the portfolio’s losses, a Normal distribution and a t-distribution were fitted. The Normal distribution was calculated using the standard normal density function, while the t-distribution parameters were estimated using the sample kurtosis. Both fitted distributions were then compared against the empirical histogram.
 
-<img src="Loss%20Vs20%Normal20%Loss.png" alt="Loss Histogram" width="400">
-Figure 2: Portfolio loss histogram with Normal distribution overlay.
-
-<img src="Loss%20Vs%20t%20Loss.png" alt="Loss Vs t Loss" width="400">
-Figure 3: Portfolio loss histogram with t-distribution overlay.
-
+<p align="center">
+  <img src="Loss%20vs%20Normal%20Loss.png" alt="Loss Histogram" width="400">
+  <img src="Loss%20Vs%20t%20Loss.png" alt="Loss Vs t Loss" width="400">
+</p>
+<p align="center">
+  <b>Figure 2:</b> Portfolio loss histogram with Normal distribution overlay. &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Figure 3:</b> Portfolio loss histogram with t-distribution overlay.
+</p>
 
