@@ -65,3 +65,8 @@ To assess how well different theoretical distributions describe the portfolio’
   <b>Figure 3:</b> Portfolio loss histogram with t-distribution overlay.
 </p>
 
+### Normal Distribution Fit
+The Normal distribution did not fully capture the shape of the empirical loss distribution. Between –50 and +50, actual losses were higher than Normal estimates, indicating more frequent moderate losses than the model predicts. Beyond this range, the Normal model overestimated the likelihood of extreme outcomes on both sides. Moreover, the Normal distribution fails to capture some extreme losses and gains observed in the empirical data. These tail points lie beyond the range predicted by the Normal model, indicating that rare, high-impact events are more likely than a Normal assumption would suggest. This highlights the importance of using a fat-tailed distribution, such as the t-distribution, for more accurate risk assessment of the portfolio. Overall,this suggests that the portfolio’s loss distribution is more peaked and has heavier tails than a perfect Normal curve, implying that the Normal assumption may underestimate risk in certain regions.
+
+### t-Distribution Fit
+The t-distribution provided a better fit for the portfolio loss distribution compared to the Normal distribution. In the central region (–50 to +50), actual losses were slightly higher than predicted, while in the tails, the t-distribution captured most of the extreme losses that the Normal model missed. However, one very extreme loss near +600 was still not fully addressed, illustrating that even fat-tailed distributions may underestimate truly rare, high-impact events.
