@@ -112,6 +112,8 @@ Value at Risk (VaR) was also estimated using the t-distribution, which accounts 
 
 **Monitor changing market volatility:** Observed kurtosis suggests dynamic risk conditions. Continuous monitoring of volatility and updating model parameters regularly will improve forecast reliability.
 
+**Implement diversification strategies:** The analysis highlights exposure to rare, high-impact events. Diversifying across more asset classes or regions can help reduce the magnitude of tail losses.
+
 
 
 ## Extensions and Alternative Approaches
