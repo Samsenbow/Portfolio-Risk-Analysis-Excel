@@ -106,9 +106,11 @@ Value at Risk (VaR) was also estimated using the t-distribution, which accounts 
 
 ## Actionable Insights
 
-*Adopt fat-tailed risk models:* The t-distribution provides a more realistic representation of portfolio risk than the Normal distribution. Risk managers should prefer fat-tailed models when calculating VaR and ES to better capture extreme losses.
+**Adopt fat-tailed risk models:** The t-distribution provides a more realistic representation of portfolio risk than the Normal distribution. Risk managers should prefer fat-tailed models when calculating VaR and ES to better capture extreme losses.
 
-*Use Expected Shortfall for capital planning:* Since ES captures tail risk more effectively than VaR, it should be the preferred measure for setting capital reserves and stress testing.
+**Use Expected Shortfall for capital planning:** Since ES captures tail risk more effectively than VaR, it should be the preferred measure for setting capital reserves and stress testing.
+
+**Monitor changing market volatility:** Observed kurtosis suggests dynamic risk conditions. Continuous monitoring of volatility and updating model parameters regularly will improve forecast reliability.
 
 
 
